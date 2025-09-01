@@ -1,6 +1,7 @@
 import Home from "./components/Home";
 import About from "./components/About";
-import Contact from "./components/contact";
+import Contact from "./components/Contact";
+import Products from "./components/Products";
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <Home />
       <About />
       <Contact />
+      <hr />
+      <h2>Products List</h2>
+      <Products />
     </div>
   );
 }
